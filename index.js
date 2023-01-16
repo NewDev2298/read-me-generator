@@ -60,7 +60,7 @@ const questions = [
         name: "license",
         message: "Select License Type.",
         default: "MIT",
-        options: ["MIT", "Apache-2.0", "ISC"]
+        choices: ["MIT", "Apache-2.0", "ISC"]
     
     },
 ];

@@ -1,5 +1,7 @@
 # Title Goes Here
 
+  ![License](https://img.shields.io/badge/License-MIT)
+
   ## Description
 
   Fun Fact: Meryl Streep has won three Academy Awards. 
@@ -21,16 +23,19 @@
   ## Installation 
   
   n/a
-    
+  
   ## Usage
   
   n/a
   
+  ## License
+
+  MIT
   
   ## Contributing 
   
   n/a
-  
+
   ## Tests 
   
   n/a
