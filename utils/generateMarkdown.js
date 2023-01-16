@@ -16,12 +16,12 @@ function generateMarkdown(data) {
 
   ## Description
 
-  lorem ipsum....
+  ${data.description}
   
   ## Table of Contents
     
   [Installation](#installation)
-  
+    
   [Usage](#usage)
   
   [License](#license)
@@ -34,28 +34,29 @@ function generateMarkdown(data) {
     
   ## Installation 
   
-  blah blah blah...
+  ${data.installation}
     
   ## Usage
   
-  filler content..filler content...
-    
+  ${data.usage}
+  
   ## License
   
-  coming soon...
+  ${data.license}
   
   ## Contributing 
   
-  just me :)
+  ${data.contribution}
   
   ## Tests 
-    
-  ......
+  
+  ${data.tests}
   
   ## Questions
   
-  N/A 
-
+  ${data.github} 
+  ${data.email} 
+  
 `;
 }
 

@@ -7,32 +7,53 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please provide a project title."
+        message: "Please provide a project title.",
+        default: "Title Goes Here"
     },
     {
         type: "input",
         name: "Description",
-        message: "Please add project description."
+        message: "Please add project description.",
+        default: "Fun Fact: Meryl Streep has won three Academy Awards. "
     },
     {
         type: "input",
         name: "Installation",
-        message: "Please add installation information."
+        message: "Please add installation information.",
+        default: ""
     },
     {
         type: "input",
         name: "Usage Information",
-        message: "Add usage information."
+        message: "Add usage information.",
+        default: ""
     },
     {
         type: "input",
         name: "Contribution Guidelines",
-        message: "Contribution Guidelines."
+        message: "Contribution Guidelines.",
+        default: ""
     },
     {
         type: "input",
         name: "Test Instructions",
-        message: "Test Instructions?"
+        message: "Test Instructions?",
+        default: ""
+
+    },
+    {
+        type: "input",
+        name: "GitHub",
+        message: "Add your GitHub account here.",
+        default: "tiktokdev223"
+
+    },
+    {
+        type: "input",
+        name: "Email",
+        message: "Add your email here.",
+        default: "anakinskywalker@farfaraway.com"
+
     },
 ];
 
