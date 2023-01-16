@@ -5,32 +5,32 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please provide a project title"
+        message: "Please provide a project title."
     },
     {
         type: "input",
         name: "Description",
-        message: "Please provide a project title"
+        message: "Please add project description."
     },
     {
         type: "input",
         name: "Installation",
-        message: "Please provide a project title"
+        message: "Please add installation information."
     },
     {
         type: "input",
         name: "Usage Information",
-        message: "Please provide a project title"
+        message: "Add usage information."
     },
     {
         type: "input",
         name: "Contribution Guidelines",
-        message: "Please provide a project title"
+        message: "Contribution Guidelines."
     },
     {
         type: "input",
         name: "Test Instructions",
-        message: "Please provide a project title"
+        message: "Test Instructions?"
     },
 ];
 
