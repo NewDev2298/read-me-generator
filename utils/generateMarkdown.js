@@ -18,7 +18,21 @@ function generateMarkdown(data) {
 
   ## Description
 
-  ## Table of Contents 
+    lorem ipsum....
+
+  ## Table of Contents
+  
+    * [Installation](#installation)
+
+    * [Usage](#usage)
+
+    * [License](#license)
+
+    * [Contributing](#contributing)
+
+    * [Tests](#tests)
+
+    * [Questions](#questions)
   
   ## Installation 
   
