@@ -54,8 +54,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  N/A
-    
+  N/A 
 
 `;
 }

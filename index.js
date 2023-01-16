@@ -1,9 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const prompt = inquirer.createPromptModule();
-const generateMarkdown = require("./utils/generateMarkdown ");
-
-
+const generateMarkdown = require("./utils/generateMarkdown")
 
 const questions = [
     {
@@ -40,7 +38,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data)
+        fs.writeFileSync(fileName, data)
+
 }
 
 // TODO: Create a function to initialize app
@@ -48,7 +47,7 @@ function init() {
     prompt(questions)
     .then((responses) => {
         const result = generateMarkdown(responses);
-        writeToFile("./Generate/README.md", result);
+        writeToFile("./dist/README.md", result)
     })
 }
 
