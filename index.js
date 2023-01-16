@@ -12,45 +12,45 @@ const questions = [
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Please add project description.",
         default: "Fun Fact: Meryl Streep has won three Academy Awards. "
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "Please add installation information.",
         default: ""
     },
     {
         type: "input",
-        name: "Usage Information",
+        name: "usage",
         message: "Add usage information.",
         default: ""
     },
     {
         type: "input",
-        name: "Contribution Guidelines",
+        name: "contribution",
         message: "Contribution Guidelines.",
         default: ""
     },
     {
         type: "input",
-        name: "Test Instructions",
+        name: "tests",
         message: "Test Instructions?",
         default: ""
 
     },
     {
         type: "input",
-        name: "GitHub",
+        name: "github",
         message: "Add your GitHub account here.",
         default: "tiktokdev223"
 
     },
     {
         type: "input",
-        name: "Email",
+        name: "email",
         message: "Add your email here.",
         default: "anakinskywalker@farfaraway.com"
 
