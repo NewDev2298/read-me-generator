@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const prompt = inquirer.createPromptModule();
 const generateMarkdown = require("./utils/generateMarkdown ");
+
 
 
 const questions = [
@@ -42,7 +44,13 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt(questions)
+    .then((responses) => {
+        const result = generateMarkdown(responses);
+        writeToFile("./Generate/README.md", result);
+    })
+}
 
 // Function call to initialize app
 init();
