@@ -14,49 +14,48 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  #
-
   ## Description
 
-    lorem ipsum....
-
+  lorem ipsum....
+  
   ## Table of Contents
+    
+  [Installation](#installation)
   
-    * [Installation](#installation)
-
-    * [Usage](#usage)
-
-    * [License](#license)
-
-    * [Contributing](#contributing)
-
-    * [Tests](#tests)
-
-    * [Questions](#questions)
+  [Usage](#usage)
   
+  [License](#license)
+  
+  [Contributing](#contributing)
+  
+  [Tests](#tests)
+  
+  [Questions](#questions)
+    
   ## Installation 
-
-    blah blah blah...
   
+  blah blah blah...
+    
   ## Usage
-
-    filler content..filler content...
   
+  filler content..filler content...
+    
   ## License
-
-    coming soon...
-
-  ## Contributing 
-
-    just me :)
-
-  ## Tests 
   
-    ......
-
+  coming soon...
+  
+  ## Contributing 
+  
+  just me :)
+  
+  ## Tests 
+    
+  ......
+  
   ## Questions
-
-    N/A
+  
+  N/A
+    
 
 `;
 }
