@@ -40,9 +40,6 @@ function generateMarkdown(data) {
   
   ${data.usage}
   
-  ## License
-  
-  ${data.license}
   
   ## Contributing 
   
@@ -53,8 +50,11 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  
-  ${data.github} 
+
+  For any questions please feel free to reach out through the accounts listed below:
+
+  ${data.github}
+
   ${data.email} 
   
 `;
