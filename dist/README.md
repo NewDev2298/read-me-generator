@@ -20,26 +20,26 @@
     
   ## Installation 
   
-  
+  n/a
     
   ## Usage
   
+  n/a
   
-  
-  ## License
-  
-  undefined
   
   ## Contributing 
   
-  
+  n/a
   
   ## Tests 
   
-  
+  n/a
   
   ## Questions
-  
-  tiktokdev223 
+
+  For any questions please feel free to reach out through the accounts listed below:
+
+  tiktokdev223
+
   anakinskywalker@farfaraway.com 
   

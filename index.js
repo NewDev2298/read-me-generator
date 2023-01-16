@@ -20,25 +20,25 @@ const questions = [
         type: "input",
         name: "installation",
         message: "Please add installation information.",
-        default: ""
+        default: "n/a"
     },
     {
         type: "input",
         name: "usage",
         message: "Add usage information.",
-        default: ""
+        default: "n/a"
     },
     {
         type: "input",
         name: "contribution",
         message: "Contribution Guidelines.",
-        default: ""
+        default: "n/a"
     },
     {
         type: "input",
         name: "tests",
         message: "Test Instructions?",
-        default: ""
+        default: "n/a"
 
     },
     {
@@ -53,17 +53,23 @@ const questions = [
         name: "email",
         message: "Add your email here.",
         default: "anakinskywalker@farfaraway.com"
-
+    
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Select License Type.",
+        default: "MIT",
+        options: ["MIT", "Apache-2.0", "ISC"]
+    
     },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
         fs.writeFileSync(fileName, data)
 
 }
 
-// TODO: Create a function to initialize app
 function init() {
     prompt(questions)
     .then((responses) => {
@@ -72,5 +78,4 @@ function init() {
     })
 }
 
-// Function call to initialize app
 init();
