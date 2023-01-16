@@ -35,16 +35,28 @@ function generateMarkdown(data) {
     * [Questions](#questions)
   
   ## Installation 
+
+    blah blah blah...
   
   ## Usage
+
+    filler content..filler content...
   
   ## License
-  
+
+    coming soon...
+
   ## Contributing 
-  
+
+    just me :)
+
   ## Tests 
   
+    ......
+
   ## Questions
+
+    N/A
 
 `;
 }
